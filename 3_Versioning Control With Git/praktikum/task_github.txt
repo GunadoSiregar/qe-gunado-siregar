@@ -7,3 +7,6 @@
 # Test develop
 
 # Penambahan fitur featureB
+# Penambahan fitur featureA
+
+# Merge featureA
