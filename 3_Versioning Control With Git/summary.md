@@ -1,52 +1,30 @@
-# Software Testing as a Career Path
+# 1. Intoduction
+Versioning adalah sebuah cara yang digunakan untuk mengatur versi dari source code program. 
+Terdapat 3 tools versioning yaitu :
+•	Version Control System (VCS)
+•	Source Code Manager (SCM)
+•	Revision Control System (RCS)
+Macam-macam dari Version Control System :
+•	Single User SCCS - 1972 Unix only RCS - 1982 Cross platform, text only
+•	Centralized CVS - 1986 File focus Perforce - 1995 Subversion - 2000 - track directory structure Microsoft Team Foundation Server - 2005
+•	Distributed Git - 2005 Mercurial - 2005 Bazaar - 2005
+Kegunaan dari versioning yaitu :
+•	Dapat melakukan track kesalahan apa yang terjadi
+•	perubahan code atau terdapat update dapat diketahui anggota tim lain
 
-1.	What is Software Testing
-	Proses verifikasi sebuah system/program computer untuk menentukan apakah itu memenuhi spesifikasi requirement/persyaratan yang ditentukan dan mengeluarkan hasil yang diiginkan. Hasilnya adalah identifikasi bug dalam produk/software.
+# 2. Istilah-istilah  dalam Git:
+•	git branch, untuk membuat branch atau percabangan 
+•	git push, untuk menyimpang perubahan di repository global 
+•	git chechout, untuk mengecek kita berada di branch mana 
+•	git merge, untuk menyatukan branch yang kita buat dengan branch master 
+•	git init,untuk inisialisasi awal 
+•	git add, untuk menambahkan file yang mau kita ubah 
+•	git commit, untuk menyimpan perubahan sudah dilakukan
 
-2.	What does Software Tester do?
-•	Understanding Requirement Documents perlu dalam pembuatan sebuah system atau fitur.
-•	Create test Cases, Test case adalah serangkaian rancangan, tindakan yang ingin dilaksanakan untuk memverifikasi fitur tertentu atau fungsi dari sebuah aplikasi
-•	Execute Testing, Menjalankan test case yang sudah dibuat
-•	Reporting and re-testing bugs
-•	Attending review meetings and other team building activities
-
-3.	Required Skills
-	Non-Technical Skills
-•	Analytical Skill, membantu dalam menyelesaikan masalah software yang kompleks menjadi unit yang lebih kecil sehingga bisa memperoleh pemahaman yang lebih baik dan membuat test case. Hal ini dapat membantu kita dalam menemukan masalah lebih mudah.
-•	Communication Skill, membicarakan hal teknis dan memberikan kritik tanpa membuat orang lain merasa tersinggung.
-•	Time management & Organization Skill, pemahaman mengenai hal apa yang diperlu dilakukan sebelum dan sesudah mengerjakan sesuatu. Kemampuan bekerja sama dalam tim dnegan menyelesaikan tugas kita tepat waktu mampu mempercepat proses kinerja tim. Software tester harus dapat memanage workload secara efisien, punya produktifitas tinggi, kemampuan optimalisasi time managemen, dan skill organisasi.
-•	Great Attitude, Software tester yag baik harus meningkatkan technical skill dengan teknologi yang terus berubah.
-•	Passion, “Try it out” untuk mementukan apakah software testing menarik minat kita atau tidak.
-
-	Technical Skills
-•	Basic knowledge of Unix/Linux Command
-•	Test management tools, software yang digunakan untuk menyimpan informasi bagaimana pengujian produk harus dilakukan, perencanaan kegiatan, pengjian serta dokumen terkait laporan status kegiatan penjaminan kualitas produk.
-Contoh : TestLink, PracticeTest, TestRail,dll.
-•	Tracking Management Tools, software yang digunakan dalam mengelola suatu proyek atau development software agar berjalan secara efisien dan efektif. Project management adalah sekumpulan aktifitas termasuk palnning, executing, controlling, dan finishing proyek.
-Contoh : PivotalTracker, Jira Software
-•	Automation testing tool. pemilihan automation tools dan team yang benar penting untuk menyukseskan manual dan automation method untuk menyukseskan software testing.
-Contoh: Katalon, Karate, podcaption, dan test asure
-
-4.	Career Path
-	Junior Quality Engineer (Fresher)
-	Quality Engineer (1-2 years experience)
-	Senior Quality Enggineer (>3 years experience)
-	Quality Engineer Lead (5-6 years experience)
-	Quality Engineer Manager (8-11 years experience)
-
-5.	Alternate Career
-	Performance Tester
-	Penetration Tester
-	System Analyst
-	Scrum Master
-
-6.	How to became Software Tester
-	Apply for freelance jobs
-•	Software Testing
-•	Test Case Management Tools
-•	Automation Testing
-	Certifiaction (optional)
-	Apply for Permanents Jobs
-
-7.	Fact
-Software Tester are paid and treated at par with Software Developers. A career in Software Testing should never be considerated as “Second rated”
+# 3. Command line setelah kita membuat repository baru:
+•	git init
+•	git add readme.md
+•	git commit -m “first commit”
+•	git branch -M main
+•	git remote add origin link github
+•	git push -u origin main
