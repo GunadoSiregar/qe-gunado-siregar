@@ -25,6 +25,6 @@ Kegunaan dari versioning yaitu :
 •	git init
 •	git add readme.md
 •	git commit -m “first commit”
-•	git branch -M main
+•	git branch -M master
 •	git remote add origin link github
-•	git push -u origin main
+•	git push -u origin master
