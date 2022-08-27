@@ -1,0 +1,32 @@
+Dik :
+Terdapat 2 ember berukuran 5L dan 3L.
+ 
+Dit : 
+Cara mendapat 4L?
+
+Solusi :
+Pre-Conditions:
+•	Masing -masing ember dalam keadaan kosong
+•	Cara mengisi air bebas
+•	Kapasitas air tidak boleh melebihi size ember
+•	Hanya dapat menggunakan kedua ember tersebut.
+
+Algoritma 1:
+1.	Isi ember bervolume 5 liter dengan air sampai penuh.
+2.	Pindahkan air pada ember bervolume 5 liter ke dalam ember bervolume 3 liter sampai penuh.
+3.	Buang semua air didalam ember bervolume 3 liter tersebut.
+4.	Pindahkan semua sisa air yang terdapat pada ember bervolume 5 liter ke dalam ember bervolume 3 liter.
+5.	Ember bervolume 5 liter isi kembali dengan air sampai penuh.
+6.	Pindahkan air pada ember bervolume 5 liter tersebut ke dalam ember bervolume 3 liter sampai penuh.
+7.	Air sebanyak 4 liter sudah kita peroleh dari sisa air yang terdapat pada ember bervolume 5 liter.
+
+Algoritma 2:
+1.	Isi ember bervolume 3 liter dengan air sampai penuh.
+2.	Pindahkan semua air pada ember bervolume 3 liter ke dalam ember bervolume 5 liter.
+3.	Isi kembali ember bervolume 3 liter dengan air sampai penuh.
+4.	Pindahkan air pada ember bervolume 3 liter ke dalam ember bervolume 5 liter sampai penuh (sisa air di ember bervolume 3 liter adalah 1 liter)
+5.	Buang semua air di dalam ember bervolume 5 liter tersebut.
+6.	Pindahkan sisa air di ember bervolume 3 liter ke dalam ember bervolume 5 liter
+7.	Isi kembali ember bervolume 3 liter dengan air sampai penuh.
+8.	Pindahkan semua air pada ember bervolume 3 liter ke dalam ember bervolume 5 liter.
+9.	Air sebanyak 4 liter sudah kita peroleh dari air yang terdapat pada ember bervolume 5 liter
