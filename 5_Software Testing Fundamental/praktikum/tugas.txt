@@ -1,0 +1,14 @@
+1.	Kesimpulan
+•	com.hascode.tutorial.entity memiliki jumlah kelas sama dengan satu. Test case ini memiliki Line coverage sebesar 67% dan Mutation Coverage sebesar 67%.
+•	Pada com.hascode.tutorial.entity,pengujian tidak menyapu semua dengan bersih line coverage
+•	Pada com.hascode.tutorial.entity terdapat 3 mutant yang diperkenalkan, tapi hanya 2 yang bisa dibunuh (destroy)
+•	com.hascode.tutorial.service memiliki jumlah kelas sama dengan satu. Test case ini memiliki Line Coverage sebesar 100% dan Mutation Coverage sebesar 75%.
+•	Pada com.hascode.tutorial.service, pengujian menyapu seluruh line coverage dengan bersih.
+•	Pada com.hascode.tutorial.service  terdapat 4 mutasi yang dipekenalkan, tapi hanya 3 yang bisa dibunuh.
+•	com.hascode.tutorial.service lebih adequate dibandingkan dengan com.hascode.tutorial.entity, karena memiliki mutant covarege lebih tinggi. Adequate artinya bisa mendeteksi kesalahan dalam program
+
+
+2.	Kesimpulan:
+•	Kode program dengan block hijau adalah line coverage
+•	Kode program dengan block merah adalah mutantion coverage.
+•	Program menerapkan Operand Replacement Operators, yaitu menggantu operator + dengan - 
