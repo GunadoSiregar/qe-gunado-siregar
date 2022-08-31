@@ -49,3 +49,8 @@
     •   Test Scenario answer : “What to be tested”
     •   Test Case answer : “How to be tested”
     •   Test case merupakan serangkaian langkah-langkah positif dan negative yang dapat dieksekusi dari sebuah test scenario.
+
+
+# Link Jawaban Praktikum (Pembuatan Test Case Sepulsa.com)
+
+Link : https://docs.google.com/spreadsheets/d/1X7eK0t2XZ5yGaDxg2AGLgEB4k54TiCDseE-ZwyfBb-A/edit?usp=sharing
