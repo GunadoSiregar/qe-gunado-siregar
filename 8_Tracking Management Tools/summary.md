@@ -32,7 +32,7 @@ jira, dikembangkan oleh atlassian. Jira adalah alat bantu dalam mengelola suatu 
 
        Fitur pelaporan dibuat agar visualisasi menarik, sehingga mempermudah pemangku kebijakan mengetahui hasilnya. Selain itu, hal ini juga akan mempermudah team leader membuat kebijakan ke depan terhadap pengerjaan suatu project.
 
-#### Fase fase yang terdapat dalam JIRA
+### Fase fase yang terdapat dalam JIRA
 - TO DO
   Panel ini berisi story yang akan dikerjaka dan sudah diprioritaskan saat planning. Story yang ditempatkan paling atas menandakan bahwa story tersebut merupakan prioritas utama.
 - IN PROGRESS
@@ -48,7 +48,7 @@ jira, dikembangkan oleh atlassian. Jira adalah alat bantu dalam mengelola suatu 
 - DONE
   Panel ini berisi story yang sudah lolos kriteria testing oleh tim development.
 
-#### Issues Type
+### Issues Type
 
 - Story
   Story merupakan jenis issue yang biasa digunakan untuk membuat fitur baru.
@@ -59,7 +59,7 @@ jira, dikembangkan oleh atlassian. Jira adalah alat bantu dalam mengelola suatu 
 - Epic
   Epic merupakan jenis issue untuk mengelompokkan task.
 
-#### 7 Poin yang digunakan dalam menciptakan Issue
+### 7 Poin yang digunakan dalam menciptakan Issue
 
 1. Project
 2. Issues Type
