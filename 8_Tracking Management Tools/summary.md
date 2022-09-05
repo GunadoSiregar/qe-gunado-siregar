@@ -34,7 +34,7 @@ jira, dikembangkan oleh atlassian. Jira adalah alat bantu dalam mengelola suatu 
 
 ### Fase fase yang terdapat dalam JIRA
 - TO DO
-  Panel ini berisi story yang akan dikerjaka dan sudah diprioritaskan saat planning. Story yang ditempatkan paling atas menandakan bahwa story tersebut merupakan prioritas utama.
+  Panel ini berisi story yang akan dikerjakan dan sudah diprioritaskan saat planning. Story yang ditempatkan paling atas menandakan bahwa story tersebut merupakan prioritas utama.
 - IN PROGRESS
   Panel ini berisi story yang sedang dikerjakan oleh software engineer atau developer.
 - FINISH
