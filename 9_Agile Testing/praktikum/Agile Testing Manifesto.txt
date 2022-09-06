@@ -1,0 +1,62 @@
+*TASK*
+
+1. Pada fase apa saja QE berperan pada proses SDLC? Sebutkan dan jelaskan peran seperti apa yang QE dapat lakukan pada setiap fase tersebut!
+   Jawab :
+   Seorang QE berperan dalam setiap tahapan (fase) yang ada di dalam Software Development Life Cycle (SDLC), 
+   Ada 6 tahapan yang terdapat pada fase SDLC antara lain:
+
+   1. Requirements Gathering
+      Tahap Requirements Gathering merupakan tahap perencaaan dalam mengidentifikasi dan menentukan scope serta ruang lingkup pemgembangan proyek.
+      Pada tahap ini, seorang Quality Engineer berperan penting dalam menentukan beberapa langkah yang akan dilakukan pada tahap planning untuk memperkirakan resiko yang akan datang ke depannya
+      serta menganalisis kebutuhan user agar sistem yang akan dibangun dapat memenuhi kebutuhan client. Jika proses Requirement Gathering dilaksanakan dengan baik,
+      maka proses selanjutnya dalam fase SDLC akan berjalan dengan baik.
+      
+   2. Design
+      Tahap Design merupakan tahap dalam membangun desain yang sudah dirancang pada proses requirement gathering. Pada tahap ini,
+      seorang Quality Engineer berperan penting dalam menganalisa desain yang dibangun oleh seorang UI/UX apakah sudah baik (Hall of Fame)
+      dan apakah desain yang sudah dirancang memenuhi syarat untuk dan layak untuk dikemabangkan pada tahap development(coding).
+
+   3. Development(Code)
+      Tahap Devekopment merupakan tahap pengembangan software dimana software yang telah dirancang dan didesain pada tahap sebelumnya akan dibangun dengan menggunakan teknologi serta bahasa pemograman yang dipilih.
+      Tahap development adalah tahap terlama dalam proses SDLC karena pada tahap ini kemungkinan penemuan masalah dan kendala semakin tinggu. Pada tahap ini,
+      seorang Quality Engineer berperan penting dalam menuliskan test plan dan merancang test case yang akan digunakan pada saat proses testing (pengujian) serta dapat mencek beberapa fungsi yang sudah dibangun.
+      Jika ditemukan hal yang bermasalah atau dicurigai kurang vulnerable ataau masih ada fungsi yang error maka QE dan Developer harus bekerjasama
+      untuk memperbaiki fungsi yang sedang dibangun agar proses selanjutnya berjalan dnegan baik. hal ini juga dapat menghindari bug yang akan terjadi pada saat software selesai dibangun.
+
+   4. Testing
+      Tahap Testing merupakan tahap pengujian terhadap software (perangkat lunak) yang sudah dibangun pada tahap-tahap sebelumnya, khusunya pada tahap development.
+      Pada tahap ini seorang Quality Engineer berperan penting dalam mengeksekusi test case yang sudah dirancang sebelumnya. Test case yang dibuat sudah mencakup positif dan negatif test case,
+      dimana test case yang sudah dieksekusi didokumentasikan hingga akhirnya menghasilakn report terkait issue yang sudah ditemukan pada saat proses pengujian.
+      Seorang QE harus menguji keseluruhan dari software yang dibangun mulai kemudahan penggunaan sampai pencapaian tujuan dari sistem yang sudah disusun sejak perancangan sistem dilakukan.
+
+   5. Deployment
+      Tahap Deployment merupakan tahap pengembangan software (perangkat lunak) yang bertujuan untuk memperbaiki issue yang sudah ditemukan oleh QE pada tahap , dan melengkapi fitur-fitur yang kurang pada software.
+      Pada tahap Deployment seorang Quality Engineer berperan penting dalam memastikan apakah semua issue sudah diperbaiki oleh developer dan memastikan perbaikan tersebut sudah lulus pengujian.
+      Selain itu, seorang QE harus memastikan bahwa semua test case dan pengujian yang sudah dilakukan pada proses testing sudah berjalan dengan baik.
+
+   6. Maintenance
+      Tahap Maintenance merupakan tahap penggunaan dan pemeliharaan software (perangkat lunak). Pada tahap Maintenance akan ada issue yang ditemukan oleh user maupun QE saat software sudah digunakan.
+      Ketika ditemukan issue yang tidak diprediksikan pada tahap testing dan deployment, maka developer akan memperbaiki issue tersebut kemudian QE juga harus membuat test case untuk menguji perbaikan fitur tersebut.
+
+2. Menurut teman-teman apa tantangan ketika menerapkan agile testing? Berikan penjelasan masing-masing
+   5 poin agile testing manifesto!
+   Jawab:
+   Tantangan ketika menerapkan agile testing adalah ketika menerapkan metode ini, maka kita akan membutuhkan adaptasi yang cepat untuk setiap perubahan yang terjadi,
+   sehingga  dibutuhkan sebuah tim yang dapat mengambil keputusann yang cepat dam tepat, serta dapat menafsirkan serta menciptakan kualitas yang terbaik dari software yang dibangun.
+   Dalam hal ini kerjasama tim sangat dibutuhkan, dimana jika kolaborasi yang baik dan tepat dapat terbangun maka solusi dalam menghasilkan produk yang dibangun pun akan menghasilkan hasil yang cepat dan terbaik.
+
+   1. Testing is an activity not a phase
+      Tantangan pada poin ini adalah masih banyak pola pikir Quality Engineer yang menilai bahwa testing dilakukan pada saat aplikasi sudah siap dibangun, dan jika ada error yang terjadi saat aplikasi dipakai
+      maka itu adalah tugas developer. Pada poin ini seorang Quality Engineer harus memiliki pola pikir bahwa proses testing harus dilakukan pada setiap tahap SDLC agar kualitas mutu pembangunan software berjalan dengan baik.
+
+   2. Prevent bugs rather than finding bugs
+      Tantangan pada poin ini adalah lebih sulit menentukan atau memperkirakan kemungkinan bugs yang terjadi. Tantangan disini adalah seorang quality Engineer harus berpikir kritis dalam menentukan bugs yang akan terjadi.
+
+   3. Don't be a checker, be a tester
+      Tantangan pada poin ini adalah mindset seorang Quality Engineer bukan hanya melakukan pengujian (testing) tetapi juga harus mengetahui kebutuhan user dalam menggunakan aplikasi tersebut.
+
+   4. Don't try to break the system, instead help build the best possible system
+      Tantangan pda poin ini adalah menciptakan test case sebanyak mungkin dengan goal (tujuan) utamanya adalah menemukan bugs. Seorang Quality Engineer harus mampu memposisikan diri sebagai orang awam yang mencoba software tersebut.
+
+   5. The whole team is responsible for quality, not just the tester
+      Tantangan pada poin ini adalah seorang Quality Engineer harus dapat memberikan saran terhadap perbaikan software untuk meningkatkan kualitas suatu perangkat lunak (software). 
