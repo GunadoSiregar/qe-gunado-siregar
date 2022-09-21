@@ -226,6 +226,7 @@ Method Hash Set
 	Method-method tersebut dapat digunakan untuk mengelola seluruh data atau elemn yang terdapat dalam set. Hash set disebut sebagai struktur data yang menyediakan cara tercepat untuk proses pencarian data.
 
 Contoh:
+
 public static void main(String[] args) {
 	Set<Integer> umur = new HashSet<>();
 	umur.add(3);
@@ -241,6 +242,7 @@ Output
 ## 10. LinkedHashSet
 LinkedHashSet menyimpan insection order dimana, data yang di input lebihdahulu akan terdapat pada urutan yang pertama.
 Contoh:
+
 	public static void main(String[] args) {
 		Set<Integer> umur = new LinkedHashSet<>();
 		umur.add(3);
