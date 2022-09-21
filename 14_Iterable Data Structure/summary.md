@@ -241,14 +241,15 @@ Output
 ## 10. LinkedHashSet
 LinkedHashSet menyimpan insection order dimana, data yang di input lebihdahulu akan terdapat pada urutan yang pertama.
 Contoh:
-public static void main(String[] args) {
-	Set<Integer> umur = new LinkedHashSet<>();
-	umur.add(3);
-	umur.add(3);
-	umur.add(4);
-	umur.add(2);
-System.out.println(umur):
-}
+	public static void main(String[] args) {
+		Set<Integer> umur = new LinkedHashSet<>();
+		umur.add(3);
+		umur.add(3);
+		umur.add(4);
+		umur.add(2);
+	
+		System.out.println(umur):
+	}
 
 Output:
 [3, 4, 2]
@@ -259,7 +260,7 @@ Pada code diatas di jelakan bahwa yang awal nya variabel “umur berisikan HashS
 Enum Set digunakan untuk menyimpan nilai “enum” . untuk urutan nya mengikuti penulisan enum tersebut.
 
 Contoh:
-public class Main {
+	public class Main {
 	
 	enum moths{
 		JANUARY, FEBRUARY, MARCH, MAY, JUNE, JULY, AUGUST, SEPTEMBER,
