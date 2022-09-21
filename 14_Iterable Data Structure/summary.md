@@ -1,6 +1,6 @@
 # Iterable Data Structure
 
-##1. Iterable
+## 1. Iterable
 Iterable merupakan Sekumpulan data atau struktur data yang dapat dilakukan iterasi atau perulangan kepadanya.
 
 Java Iterable - Hierarchy Interface. Iterable adalah struktur tertinggi dalam hirarki dalam bahasa pemograman java seperti collection dan list.
@@ -25,6 +25,7 @@ Method dalam kelas Iterable:
 -	spliterator: Spliterator<T> 
 
 Contoh:
+
 public static void main(String[] args) {
 	Iterable<string> names = List.of(“alterra”, “academy”);
 	for (var name: name) {
@@ -290,7 +291,7 @@ DECEMBER
 Sebuah Set yang selanjutnya memberikan pemesanan total pada elemen-elemennya.. Elemen-elemen diurutkan baik dengan menggunakan pengurutan alami atau dengan menggunakan Pembanding. Semua elemen yang dimasukkan ke dalam set yang diurutkan harus mengimplementasikan antarmuka Sebanding.
 
 ## 13. Queue
--	List adalah jenis array yang membolehkan adanya value duplicate atau nilai yang sama dalam index yang berbeda. List memiliki beberapa fungsi-fungsi yang cukup membantu dalam proses pengolahan nilai-nilai seperti fungsi clear() untuk menghapus semua element atau value pada list, melakukan insert value pada index element tertentu dengan fungsi add(int index, Object element), menghapus value pada index element tertentu dengan fungsi remove(int index).
+Queue adalah jenis array yang membolehkan adanya value duplicate atau nilai yang sama dalam index yang berbeda. List memiliki beberapa fungsi-fungsi yang cukup membantu dalam proses pengolahan nilai-nilai seperti fungsi clear() untuk menghapus semua element atau value pada list, melakukan insert value pada index element tertentu dengan fungsi add(int index, Object element), menghapus value pada index element tertentu dengan fungsi remove(int index).
 -	Antarmuka Daftar menyediakan cara untuk menyimpan koleksi yang dipesan.
 -	Ini adalah antarmuka anak Koleksi
 -	Ini adalah kumpulan objek yang dipesan di mana nilai duplikat dapat disimpan
@@ -302,8 +303,41 @@ public static void main(String[] args) {
 	umur.add(7);
 	umur.add(10);
 	umur.add(5);
-System.out.println(umur.poll());
+	
+	System.out.println(umur.poll());
 }
 
 Output:
 5
+
+## 14. Deque
+Deque adalah sekumpulan koleksi linear yang mendukung penambahan dan pengurangan elemn-lemen baik dari msing masing ujungnya. Deque adalah singkatan dari double-ended queue.
+
+Method:
+- addFirst()
+- addLast()
+- offerFirst()
+- OfferLast()
+- RemoveFirst()
+- Remove Last()
+- pollFirst()
+- pollLast()
+- getFirst()
+- getLast()
+- peekFirst()
+- peekLast()
+- removeFirstOccurence()
+- removeLasttOccurence()
+- push()
+- pop()
+- descendingIterator()
+
+Contoh:
+public static void main(String[] args) {
+	Deque<String> bulan = new LinkedList<>();
+	bulan.offerLast("1");
+	bulan.offerLast("2");
+	bulan.offerLast("3");
+	
+	System.out.println(bulan.pollLast());
+}
