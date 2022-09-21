@@ -26,12 +26,13 @@ Method dalam kelas Iterable:
 
 Contoh:
 
-public static void main(String[] args) {
-	Iterable<string> names = List.of(“alterra”, “academy”);
-	for (var name: name) {
-		System.out.println(name) ;
+	public static void main(String[] args) {
+		Iterable<string> names = List.of(“alterra”, “academy”);
+		for (var name: name) {
+			System.out.println(name) ;
+		}
 	}
-}
+
 Output:
 alterra
 academy
@@ -40,20 +41,22 @@ academy
 Interface iterable memiliki satu method iterator()
 Iterator adalah kelas yang mengelola iterasi di atas iterable. itu mempertahankan keadaan di mana kita berada dalam iterasi saat ini, dan tahu apa elemen atau data selanjutnya yang akan diambil dan bagaimana mendapatkannya
 
-Contoh Iterator:
+Contoh:
 
-import java.util.Iterator;
-import java.util.List;
-Public class Main {
-public static void main(String[] args) {
-		Iterable<string> names = List.of(“alterra”, “academy”);
-		Iterator<String> it = names.iterator();
-		while(it.hasNext()) {
-			String.1 = it.next();
-			System.out.println(i) ;
-		}
-    }
-}
+	public class Main {
+		import java.util.Iterator;
+		import java.util.List;
+		Public class Main {
+	
+		public static void main(String[] args) {
+			Iterable<string> names = List.of(“alterra”, “academy”);
+			Iterator<String> it = names.iterator();
+			while(it.hasNext()) {
+				String.1 = it.next();
+				System.out.println(i) ;
+			}
+    	}
+	}
 
 Output:
 alterra
@@ -79,14 +82,15 @@ Method Collection
 -	toArray()
 
 Contoh:
-public static void main(String[] args) {
-	Collection<String> names = new ArrayList<>();
-	names.add(“Alterra”);
-	names.add(“Academy”);
-	names.add(“Coba”);
-	names.remove(“Coba”);
-	System.out.println(names.contains(“Aterra”));
-}
+
+	public static void main(String[] args) {
+		Collection<String> names = new ArrayList<>();
+		names.add(“Alterra”);
+		names.add(“Academy”);
+		names.add(“Coba”);
+		names.remove(“Coba”);
+		System.out.println(names.contains(“Aterra”));
+	}
 
 Output:
 true
@@ -113,15 +117,18 @@ Step 2 : Menambah elemen pada Array List , maka masing2 posisi akan terisi
 Step 3 : Ketika data sudah penuh , lalu kita tetap memaksa memasukkan data kedalam Array List maka,
 Step 4 : Array List akan membuat array baru dan memindahkan seluruh data pada array tersebut
 Step 5 : Akan dilakukan hal yang sama , jika kapasitas penyimpanan sudah penuh
-Maka sebetulnya panjang dari Array List terbatas , tetapi Array List dapat memanjangkan dirinya sehingga seolah-olah data yang dapat disimpan iyu tidak terbatas
-Contoh
-public static void main(String[] args) {
-	List<Integer> umur = new ArrayList<>();
-	umur.add(17);
-	umur.add(60);
-	umur.add(30);
-	System.out.println(umur.get(2));
-}
+Maka sebetulnya panjang dari Array List terbatas , tetapi Array List dapat memanjangkan dirinya sehingga seolah-olah data yang dapat disimpan iyu tidak terbatas.
+
+Contoh:
+
+	public static void main(String[] args) {
+		List<Integer> umur = new ArrayList<>();
+		umur.add(17);
+		umur.add(60);
+		umur.add(30);
+	
+		System.out.println(umur.get(2));
+	}
 
 Output 
 30
@@ -149,13 +156,15 @@ o	Array List dan Linked List memiliki waktu yang sama
 o	Array List dan Linked List memiliki waktu yang sama
 
 Contoh:
-public static void main(String[] args) {
-	List<Integer> umur = new LinkedList<>();
-	umur.add(17);
-	umur.add(60);
-	umur.add(30);
-	System.out.println(umur.get(2));
-}
+
+	public static void main(String[] args) {
+		List<Integer> umur = new LinkedList<>();
+		umur.add(17);
+		umur.add(60);
+		umur.add(30);
+	
+		System.out.println(umur.get(2));
+	}
 
 Output
 30
@@ -164,15 +173,17 @@ Output
 Immutable list merupakan bagian dari list tapi tidak dapat diubah datanya.
 
 Contoh:
-public static void main(String[] args) {
-	List<Integer> umur = new LinkedList<>();
-	var umurImmutable = Collections.unmodifiableList(umur);
-	umurImmutable.add(2); // tidak diizinkan
-	umur.add(17);
-	umur.add(60);
-	umur.add(30);
-	System.out.println(umur.get(2));
-}
+
+	public static void main(String[] args) {
+		List<Integer> umur = new LinkedList<>();
+		var umurImmutable = Collections.unmodifiableList(umur);
+		umurImmutable.add(2); // tidak diizinkan
+		umur.add(17);
+		umur.add(60);
+		umur.add(30);
+	
+		System.out.println(umur.get(2));
+	}
 
 Output
 error
@@ -189,13 +200,15 @@ Method:
 -	serialVersion
 
 Contoh:
-public static void main(String[] args) {
-	Stack<Integer> umur = new Stack<>();
-	umur.push(7);
-	umur.push(10);
-	umur.push(5);
-	System.out.println(umur.pop());
-}
+
+	public static void main(String[] args) {
+		Stack<Integer> umur = new Stack<>();
+		umur.push(7);
+		umur.push(10);
+		umur.push(5);
+	
+		System.out.println(umur.pop());
+	}
 
 Output:
 5
@@ -227,14 +240,15 @@ Method Hash Set
 
 Contoh:
 
-public static void main(String[] args) {
-	Set<Integer> umur = new HashSet<>();
-	umur.add(3);
-	umur.add(3);
-	umur.add(4);
-	umur.add(2);
-	System.out.println(umur);
-}
+	public static void main(String[] args) {
+		Set<Integer> umur = new HashSet<>();
+		umur.add(3);
+		umur.add(3);
+		umur.add(4);
+		umur.add(2);
+	
+		System.out.println(umur);
+	}
 
 Output
 [2, 3, 4]
@@ -262,20 +276,20 @@ Pada code diatas di jelakan bahwa yang awal nya variabel “umur berisikan HashS
 Enum Set digunakan untuk menyimpan nilai “enum” . untuk urutan nya mengikuti penulisan enum tersebut.
 
 Contoh:
+	
 	public class Main {
 	
-	enum moths{
-		JANUARY, FEBRUARY, MARCH, MAY, JUNE, JULY, AUGUST, SEPTEMBER,
-	OCTOBER, NAVEMBER, DECEMBER
-	}
-	
-	public static void main(String[] args) {
-		Set<months> set = EnumSet.allof(months.class);
-		Iterator<months> iter = set.iterator();
-		while (iter.hasNext())
-			System.out.println(iter.next());
+		enum moths{
+			JANUARY, FEBRUARY, MARCH, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NAVEMBER, DECEMBER
 		}
-}
+	
+		public static void main(String[] args) {
+			Set<months> set = EnumSet.allof(months.class);
+			Iterator<months> iter = set.iterator();
+			while (iter.hasNext())
+				System.out.println(iter.next());
+		}
+	}
 
 Output:
 JANUARI
@@ -301,14 +315,15 @@ Queue adalah jenis array yang membolehkan adanya value duplicate atau nilai yang
 -	Sejak Daftar mempertahankan urutan penyisipan memungkinkan akses posisi dan penyisipan elemen.
 
 Contoh:
-public static void main(String[] args) {
-	Queue<Integer> umur = new PriorityQueue<>();
-	umur.add(7);
-	umur.add(10);
-	umur.add(5);
+
+	public static void main(String[] args) {
+		Queue<Integer> umur = new PriorityQueue<>();
+		umur.add(7);
+		umur.add(10);
+		umur.add(5);
 	
-	System.out.println(umur.poll());
-}
+		System.out.println(umur.poll());
+	}
 
 Output:
 5
@@ -336,11 +351,12 @@ Method:
 - descendingIterator()
 
 Contoh:
-public static void main(String[] args) {
-	Deque<String> bulan = new LinkedList<>();
-	bulan.offerLast("1");
-	bulan.offerLast("2");
-	bulan.offerLast("3");
+
+	public static void main(String[] args) {
+		Deque<String> bulan = new LinkedList<>();
+		bulan.offerLast("1");
+		bulan.offerLast("2");
+		bulan.offerLast("3");
 	
-	System.out.println(bulan.pollLast());
-}
+		System.out.println(bulan.pollLast());
+	}
