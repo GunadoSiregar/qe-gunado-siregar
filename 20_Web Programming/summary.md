@@ -24,16 +24,17 @@ HTML merupakan standar yang digunakan untuk menampilkan halaman web
 •	<body> = berisi konten halaman yang terlihat
 
 ### 3. TAG HTML
-•	Tag div : untuk konten
+<!-- •	Tag div : untuk konten
 •	Tag heading : <h1>-<h6> dan tag paragraf <p>
 •	Styling : <strong>=lebih tebal, <em>=italic, <s>=text garis tercoret>, <br>=garis baru
 •	tag link : <a href="">
 •	tag image : <img src="">
 •	tag list : <ol> <li> <ul type = "">
-•	tag form : <form><fieldsheet><label><input id="" type="" placeholder="">
+•	tag form : <form><fieldsheet><label><input id="" type="" placeholder=""> -->
 
 ## 3. CSS
-### 1 Analogi CSS (Cascading Style Sheet)
+
+### 1. Analogi CSS (Cascading Style Sheet)
 CSS digunakan untuk menghias halaman web seperti color, size, font background, width, height, dll dan mengatur halaman web(float, align display, psosition)
 
 ### 2. Menambah file css
