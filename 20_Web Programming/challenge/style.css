@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    
+    box-sizing: border-box;
+  }
+  
+  section {
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: green;
+    width: 80%;
+    height: 100px;
+  }
+  nav {
+    width: 150px;
+    height: 500px;
+    background-color: grey;
+  }
+  
+  .sidebar {
+    text-align: center;
+    padding-top: 8px;
+  }
+  
+  article {
+    background-color: red;
+    width: 69%;
+  }
+  main {
+    display: flex;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: yellow;
+  }
+  .navbar p {
+    font-size: 23px;
+  }
+  
+  footer {
+    background-color: blue;
+    width: 80%;
+    padding: 18px;
+    text-align: center;
+  }
+  
+  .lorem {
+    padding: 2rem;
+  }

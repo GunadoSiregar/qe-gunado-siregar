@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Soal 2</title>
+    </head>
+    <body>
+        <h1>Buat Account Baru!</h1>
+        <h2>Sign Up Form</h2>
+
+        <form action="login.php" method="POST">
+            <fieldset>
+            <legend>Register</legend>
+
+            <div >
+                <label>First name:</label>
+                <br>
+                <input type="text" name="username" placeholder="username..." />
+                <br><br>
+            </div>
+
+            <div>
+                <label>Last name:</label>
+                <br>
+                <input type="text" name="username" placeholder="username..." />
+                <br><br>
+            </div>
+
+            <div>
+                <label for="">Gender:</label>
+                <div><input type="radio" name="jenis_kelamin" value="Male" />Male</div>
+                <div><input type="radio" name="jenis_kelamin" value="Female" />Female</div>
+                <div><input type="radio" name="jenis_kelamin" value="Other" />Other</div>
+                <br>
+            </div>
+            
+            <div>
+                <label>Nationality:</label>
+                <br>
+                <select name="nationality">
+                    <option value="islam">Indonesia</option>
+                    <option value="kristen">USA</option>
+                    <option value="hindu">China</option>
+                    <option value="budha">South korean</option>
+                </select>
+                <br><br>
+             </div>
+            
+             <div>
+                <label>Language Spoken:</label>
+                <div><input type="checkbox" name="bahasa1" value="php" />Indonesia</div>
+                <div><input type="checkbox" name="bahasa2" value="asp" />English</div>
+                <div><input type="checkbox" name="bahasa3" value="jsp" />Other</div>
+                <br>
+            </div>
+
+             <div>
+                <label>Bio:</label>
+                <br>
+                <textarea name="biografi" rows="8" cols="35"></textarea>
+            </div>
+
+            <a href="welcome.html"><input type="button" value="Sign Up"></a>
+
+            </fieldset>
+        </form>
+    </body>
+</html>
