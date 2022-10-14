@@ -1,0 +1,111 @@
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 1 column 1 - Warning: plain text isn't allowed in <head> elements
+line 1 column 12 - Warning: <!DOCTYPE> isn't allowed after elements
+line 2 column 2 - Warning: discarding unexpected <html>
+line 3 column 1 - Warning: <head> isn't allowed in <body> elements
+line 4 column 1 - Warning: <meta> lacks "content" attribute
+line 4 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 5 column 1 - Warning: meta isn't allowed in <body> elements
+line 6 column 1 - Warning: meta isn't allowed in <body> elements
+line 7 column 1 - Warning: meta isn't allowed in <body> elements
+line 8 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 9 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 10 column 1 - Warning: <title> isn't allowed in <body> elements
+line 11 column 1 - Warning: <link> lacks "type" attribute
+line 11 column 1 - Warning: <link> isn't allowed in <body> elements
+line 21 column 1 - Warning: <script> lacks "type" attribute
+line 27 column -3 - Warning: </head> isn't allowed in <body> elements
+line 28 column 1 - Warning: <body> isn't allowed in <body> elements
+line 33 column 1 - Error: <header> is not recognized!
+line 33 column 1 - Warning: discarding unexpected <header>
+line 35 column 1 - Error: <nav> is not recognized!
+line 35 column 1 - Warning: discarding unexpected <nav>
+line 36 column 23 - Warning: trimming empty <div>
+line 60 column 1 - Warning: unknown attribute "role"
+line 62 column 1 - Warning: unknown attribute "placeholder"
+line 65 column 35 - Warning: trimming empty <i>
+line 66 column 1 - Warning: trimming empty <button>
+line 85 column 19 - Warning: trimming empty <div>
+line 88 column -3 - Warning: discarding unexpected </nav>
+line 89 column 19 - Warning: trimming empty <div>
+line 92 column 1 - Error: <nav> is not recognized!
+line 92 column 1 - Warning: discarding unexpected <nav>
+line 96 column 1 - Warning: unknown attribute "aria-expanded"
+line 96 column 1 - Warning: unknown attribute "data-target"
+line 96 column 1 - Warning: unknown attribute "data-toggle"
+line 97 column 1 - Warning: missing </button> before <div>
+line 97 column 1 - Warning: trimming empty <button>
+line 98 column 1 - Warning: inserting implicit <button>
+line 99 column 20 - Warning: trimming empty <span>
+line 100 column 20 - Warning: trimming empty <span>
+line 101 column 20 - Warning: trimming empty <span>
+line 106 column 19 - Warning: trimming empty <div>
+line 107 column -3 - Warning: discarding unexpected </button>
+line 128 column 1 - Warning: unknown attribute "role"
+line 131 column 1 - Warning: unknown attribute "placeholder"
+line 135 column 35 - Warning: trimming empty <i>
+line 136 column 1 - Warning: trimming empty <button>
+line 137 column 1 - Warning: trimming empty <div>
+line 146 column -3 - Warning: discarding unexpected </nav>
+line 152 column -3 - Warning: trimming empty <div>
+line 153 column -3 - Warning: trimming empty <div>
+line 154 column -3 - Warning: trimming empty <div>
+line 154 column 3 - Warning: discarding unexpected </header>
+line 161 column 23 - Warning: trimming empty <h1>
+line 163 column -3 - Warning: trimming empty <div>
+line 164 column -3 - Warning: trimming empty <div>
+line 165 column -3 - Warning: trimming empty <div>
+line 166 column -3 - Warning: trimming empty <div>
+line 167 column -3 - Warning: trimming empty <div>
+line 173 column 1 - Warning: <a> attribute "target" lacks value
+line 175 column 1 - Warning: <a> attribute "target" lacks value
+line 177 column 1 - Warning: <a> attribute "target" lacks value
+line 177 column 116 - Warning: Warning: unescaped & which should be written as &amp;
+line 179 column 1 - Warning: <a> attribute "target" lacks value
+line 183 column 45 - Warning: trimming empty <div>
+line 186 column 1 - Warning: <form> lacks "action" attribute
+line 190 column 53 - Warning: Warning: unescaped & which should be written as &amp;
+line 203 column -3 - Warning: trimming empty <div>
+line 204 column -3 - Warning: trimming empty <div>
+line 208 column -3 - Warning: trimming empty <div>
+line 209 column -3 - Warning: trimming empty <div>
+line 210 column -3 - Warning: trimming empty <div>
+line 216 column 23 - Warning: trimming empty <div>
+line 217 column 1 - Error: <footer> is not recognized!
+line 217 column 1 - Warning: discarding unexpected <footer>
+line 225 column 29 - Warning: img lacks "alt" attribute
+line 227 column 5 - Warning: img lacks "alt" attribute
+line 232 column 5 - Warning: img lacks "alt" attribute
+line 237 column 5 - Warning: img lacks "alt" attribute
+line 242 column 5 - Warning: img lacks "alt" attribute
+line 247 column 5 - Warning: img lacks "alt" attribute
+line 252 column 36 - Warning: img lacks "alt" attribute
+line 294 column 19 - Warning: trimming empty <div>
+line 297 column -3 - Warning: discarding unexpected </footer>
+line 298 column 96 - Warning: trimming empty <i>
+line 304 column 2 - Warning: img lacks "alt" attribute
+line 304 column 2 - Warning: img lacks "src" attribute
+line 307 column 1 - Warning: unknown attribute "role"
+line 307 column 1 - Warning: <div> attribute "tabindex" has invalid value "-1"
+line 308 column 1 - Warning: unknown attribute "role"
+line 319 column 1 - Warning: <script> lacks "type" attribute
+line 320 column 1 - Warning: content occurs after end of body
+InputStream: Doctype given is ""
+InputStream: Document content looks like HTML 4.01 Transitional
+88 warnings, 4 errors were found!
+This document has errors that must be fixed before
+using HTML Tidy to generate a tidied up version.
+The table summary attribute should be used to describe
+the table structure. It is very helpful for people using
+non-visual browsers. The scope and headers attributes for
+table cells are useful for specifying which headers apply
+to each table cell, enabling non-visual browsers to provide
+a meaningful context for each cell.
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+For further advice on how to make your pages accessible
+see "http://www.w3.org/WAI/GL". You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.

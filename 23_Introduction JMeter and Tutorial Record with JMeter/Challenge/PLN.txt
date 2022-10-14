@@ -1,0 +1,193 @@
+line 1 column 1 - Warning: missing <!DOCTYPE> declaration
+line 1 column 1 - Warning: plain text isn't allowed in <head> elements
+line 1 column 12 - Warning: <!DOCTYPE> isn't allowed after elements
+line 2 column 2 - Warning: discarding unexpected <html>
+line 3 column 1 - Warning: <head> isn't allowed in <body> elements
+line 4 column 1 - Warning: <meta> lacks "content" attribute
+line 4 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 5 column 1 - Warning: meta isn't allowed in <body> elements
+line 6 column 1 - Warning: meta isn't allowed in <body> elements
+line 7 column 1 - Warning: meta isn't allowed in <body> elements
+line 8 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 9 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 10 column 1 - Warning: <title> isn't allowed in <body> elements
+line 11 column 1 - Warning: unknown attribute "property"
+line 11 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 12 column 1 - Warning: unknown attribute "property"
+line 12 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 13 column 1 - Warning: unknown attribute "property"
+line 13 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 14 column 1 - Warning: unknown attribute "property"
+line 14 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 15 column 1 - Warning: unknown attribute "property"
+line 15 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 16 column 1 - Warning: unknown attribute "property"
+line 16 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 17 column 1 - Warning: unknown attribute "property"
+line 17 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 18 column 1 - Warning: unknown attribute "property"
+line 18 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 19 column 1 - Warning: unknown attribute "property"
+line 19 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 20 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 21 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 22 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 23 column 1 - Warning: <meta> isn't allowed in <body> elements
+line 24 column 1 - Warning: <link> lacks "type" attribute
+line 24 column 1 - Warning: <link> isn't allowed in <body> elements
+line 34 column 1 - Warning: <script> lacks "type" attribute
+line 40 column -3 - Warning: </head> isn't allowed in <body> elements
+line 41 column 1 - Warning: <body> isn't allowed in <body> elements
+line 46 column 1 - Error: <header> is not recognized!
+line 46 column 1 - Warning: discarding unexpected <header>
+line 48 column 1 - Error: <nav> is not recognized!
+line 48 column 1 - Warning: discarding unexpected <nav>
+line 49 column 23 - Warning: trimming empty <div>
+line 73 column 1 - Warning: unknown attribute "role"
+line 75 column 1 - Warning: unknown attribute "placeholder"
+line 78 column 35 - Warning: trimming empty <i>
+line 79 column 1 - Warning: trimming empty <button>
+line 98 column 19 - Warning: trimming empty <div>
+line 101 column -3 - Warning: discarding unexpected </nav>
+line 102 column 19 - Warning: trimming empty <div>
+line 105 column 1 - Error: <nav> is not recognized!
+line 105 column 1 - Warning: discarding unexpected <nav>
+line 109 column 1 - Warning: unknown attribute "aria-expanded"
+line 109 column 1 - Warning: unknown attribute "data-target"
+line 109 column 1 - Warning: unknown attribute "data-toggle"
+line 110 column 1 - Warning: missing </button> before <div>
+line 110 column 1 - Warning: trimming empty <button>
+line 111 column 1 - Warning: inserting implicit <button>
+line 112 column 20 - Warning: trimming empty <span>
+line 113 column 20 - Warning: trimming empty <span>
+line 114 column 20 - Warning: trimming empty <span>
+line 119 column 19 - Warning: trimming empty <div>
+line 120 column -3 - Warning: discarding unexpected </button>
+line 141 column 1 - Warning: unknown attribute "role"
+line 144 column 1 - Warning: unknown attribute "placeholder"
+line 148 column 35 - Warning: trimming empty <i>
+line 149 column 1 - Warning: trimming empty <button>
+line 150 column 1 - Warning: trimming empty <div>
+line 159 column -3 - Warning: discarding unexpected </nav>
+line 165 column -3 - Warning: trimming empty <div>
+line 166 column -3 - Warning: trimming empty <div>
+line 167 column -3 - Warning: trimming empty <div>
+line 167 column 3 - Warning: discarding unexpected </header>
+line 202 column 32 - Warning: trimming empty <div>
+line 203 column 1 - Warning: unknown attribute "role"
+line 204 column 1 - Warning: unknown attribute "role"
+line 204 column 1 - Warning: unknown attribute "data-href"
+line 206 column 2 - Warning: unknown attribute "role"
+line 206 column 2 - Warning: unknown attribute "data-href"
+line 208 column 2 - Warning: unknown attribute "role"
+line 208 column 2 - Warning: unknown attribute "data-href"
+line 212 column 1 - Warning: unknown attribute "data-hash"
+line 220 column 1 - Error: <video> is not recognized!
+line 220 column 1 - Warning: discarding unexpected <video>
+line 220 column 30 - Error: <source> is not recognized!
+line 220 column 30 - Warning: discarding unexpected <source>
+line 220 column 208 - Warning: discarding unexpected </video>
+line 223 column 1 - Warning: unknown attribute "data-hash"
+line 229 column 0 - Warning: trimming empty <p>
+line 235 column 1 - Warning: unknown attribute "data-hash"
+line 241 column 0 - Warning: trimming empty <p>
+line 255 column 32 - Warning: trimming empty <div>
+line 258 column 1 - Warning: <form> attribute "method" has invalid value ""
+line 273 column 1 - Warning: unknown attribute "data-href"
+line 274 column 80 - Warning: trimming empty <span>
+line 276 column 2 - Warning: unknown attribute "data-href"
+line 277 column 82 - Warning: trimming empty <span>
+line 279 column 2 - Warning: unknown attribute "data-href"
+line 280 column 68 - Warning: trimming empty <span>
+line 282 column 2 - Warning: unknown attribute "data-href"
+line 283 column 71 - Warning: trimming empty <span>
+line 285 column 2 - Warning: unknown attribute "data-href"
+line 286 column 76 - Warning: trimming empty <span>
+line 292 column 1 - Warning: unknown attribute "data-hash"
+line 329 column 19 - Warning: trimming empty <div>
+line 336 column 1 - Warning: unknown attribute "data-hash"
+line 373 column 19 - Warning: trimming empty <div>
+line 380 column 1 - Warning: unknown attribute "data-hash"
+line 417 column 19 - Warning: trimming empty <div>
+line 424 column 1 - Warning: unknown attribute "data-hash"
+line 461 column 19 - Warning: trimming empty <div>
+line 468 column 1 - Warning: unknown attribute "data-hash"
+line 469 column -3 - Warning: trimming empty <div>
+line 480 column 32 - Warning: trimming empty <div>
+line 486 column 4 - Warning: <a> escaping malformed URI reference
+line 489 column 19 - Warning: trimming empty <div>
+line 491 column 19 - Warning: trimming empty <div>
+line 495 column 192 - Warning: trimming empty <i>
+line 509 column 55 - Warning: trimming empty <i>
+line 512 column 19 - Warning: trimming empty <div>
+line 525 column 55 - Warning: trimming empty <i>
+line 528 column 19 - Warning: trimming empty <div>
+line 531 column 19 - Warning: trimming empty <div>
+line 539 column 23 - Warning: trimming empty <div>
+line 540 column 1 - Error: <footer> is not recognized!
+line 540 column 1 - Warning: discarding unexpected <footer>
+line 548 column 29 - Warning: img lacks "alt" attribute
+line 550 column 5 - Warning: img lacks "alt" attribute
+line 555 column 5 - Warning: img lacks "alt" attribute
+line 560 column 5 - Warning: img lacks "alt" attribute
+line 565 column 5 - Warning: img lacks "alt" attribute
+line 570 column 5 - Warning: img lacks "alt" attribute
+line 575 column 36 - Warning: img lacks "alt" attribute
+line 617 column 19 - Warning: trimming empty <div>
+line 620 column -3 - Warning: discarding unexpected </footer>
+line 621 column 96 - Warning: trimming empty <i>
+line 627 column 2 - Warning: img lacks "alt" attribute
+line 627 column 2 - Warning: img lacks "src" attribute
+line 630 column 1 - Warning: unknown attribute "role"
+line 630 column 1 - Warning: <div> attribute "tabindex" has invalid value "-1"
+line 631 column 1 - Warning: unknown attribute "role"
+line 642 column 1 - Warning: <script> lacks "type" attribute
+line 643 column 1 - Warning: content occurs after end of body
+InputStream: Doctype given is ""
+InputStream: Document content looks like HTML 4.01 Transitional
+139 warnings, 6 errors were found!
+This document has errors that must be fixed before
+using HTML Tidy to generate a tidied up version.
+It is unlikely that vendor-specific, system-dependent encodings
+work widely enough on the World Wide Web; you should avoid using the 
+specified character encoding, instead you are recommended to
+use named entities, e.g. &trade;.
+Character codes 128 to 159 (U+0080 to U+009F) are not allowed in HTML;
+even if they were, they would likely be unprintable control characters.
+Tidy assumed you wanted to refer to a character with the same byte value in the 
+specified encoding and replaced that reference with the Unicode equivalent.
+Character codes for UTF-8 must be in the range: U+0000 to U+10FFFF.
+The definition of UTF-8 in Annex D of ISO/IEC 10646-1:2000 also
+allows for the use of five- and six-byte sequences to encode
+characters that are outside the range of the Unicode character set;
+those five- and six-byte sequences are illegal for the use of
+UTF-8 as a transformation of Unicode characters. ISO/IEC 10646
+does not allow mapping of unpaired surrogates, nor U+FFFE and U+FFFF
+(but it does allow other noncharacters). For more information please refer to
+http://www.unicode.org/unicode and http://www.cl.cam.ac.uk/~mgk25/unicode.html
+Character codes for UTF-16 must be in the range: U+0000 to U+10FFFF.
+The definition of UTF-16 in Annex C of ISO/IEC 10646-1:2000 does not allow the
+mapping of unpaired surrogates. For more information please refer to
+http://www.unicode.org/unicode and http://www.cl.cam.ac.uk/~mgk25/unicode.html
+URIs must be properly escaped, they must not contain unescaped
+characters below U+0021 including the space character and not
+above U+007E. Tidy escapes the URI for you as recommended by
+HTML 4.01 section B.2.1 and XML 1.0 section 4.2.2. Some user agents
+use another algorithm to escape such URIs and some server-sided
+scripts depend on that. If you want to depend on that, you must
+escape the URI by your own. For more information please refer to
+http://www.w3.org/International/O-URL-and-ident.html
+The table summary attribute should be used to describe
+the table structure. It is very helpful for people using
+non-visual browsers. The scope and headers attributes for
+table cells are useful for specifying which headers apply
+to each table cell, enabling non-visual browsers to provide
+a meaningful context for each cell.
+The alt attribute should be used to give a short description
+of an image; longer descriptions should be given with the
+longdesc attribute which takes a URL linked to the description.
+These measures are needed for people using non-graphical browsers.
+For further advice on how to make your pages accessible
+see "http://www.w3.org/WAI/GL". You may also want to try
+"http://www.cast.org/bobby/" which is a free Web-based
+service for checking URLs for accessibility.
