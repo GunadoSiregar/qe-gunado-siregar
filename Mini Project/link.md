@@ -15,3 +15,10 @@ https://docs.google.com/document/d/1-P65bLJcddG7Nof6V-WAKnTc1hU_m3mh/edit?usp=sh
 
 Link Slide Presentasi:
 https://www.canva.com/design/DAFQ_Wf4R4w/R2weQpbMvoKwtP_XvO4ipw/view?utm_content=DAFQ_Wf4R4w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+
+Link Repo Web UI:
+https://github.com/GunadoSiregar/qe-gunado-siregar-mini-project-Web-UI.git
+
+Link Repo API:
+https://github.com/GunadoSiregar/qe-gunado-siregar-mini-project-API.git
